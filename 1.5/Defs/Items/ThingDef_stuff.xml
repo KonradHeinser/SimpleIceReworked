@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>GS_Iceblocks</defName>
+    <label>ice</label>
+    <description>Blocks out of solid ice, it can be used for various things.</description>
+    <graphicData>
+      <texPath>Things/Ice</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<tickerType>Normal</tickerType>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+	
+    <statBases>
+      <MarketValue>0</MarketValue>
+      <Mass>3</Mass>
+      <StuffPower_Armor_Sharp>0.3</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.3</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.0</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>0</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <BluntDamageMultiplier>1.2</BluntDamageMultiplier>
+    </statBases>
+	
+	
+	    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>0.03</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+	
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+	
+    <deepCommonality>0</deepCommonality>
+    <deepCountPerPortion>0</deepCountPerPortion>
+    <deepLumpSizeRange>0</deepLumpSizeRange>
+    <burnableByRecipe>true</burnableByRecipe>
+    <smeltable>false</smeltable>
+	
+    <stuffProps>
+      <categories>
+        <li>Stony</li>
+		<!--<li>Metallic</li>-->
+      </categories>
+	  
+      <commonality>0</commonality>
+	  <allowedInStuffGeneration>false</allowedInStuffGeneration>
+      <color>(179,198,226)</color>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactBullet>BulletImpact_Ground</soundImpactBullet>
+      <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Stone</soundImpactMelee>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>0</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.3</MaxHitPoints>
+        <WorkToMake>2</WorkToMake>
+        <WorkToBuild>10.0</WorkToBuild>
+        <Beauty>0</Beauty>
+        <Flammability>0</Flammability>
+        <MeleeWeapon_CooldownMultiplier>1.3</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+	
+	
+		 <modExtensions>
+         <li Class="VFECore.StuffExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+			<structureGenerationCommonalityOffset>-999</structureGenerationCommonalityOffset>
+			<weaponGenerationCommonalityOffset>-999</weaponGenerationCommonalityOffset>
+			<apparelGenerationCommonalityOffset>-999</apparelGenerationCommonalityOffset>
+			
+			<structureGenerationCommonalityFactor>0</structureGenerationCommonalityFactor>
+			<weaponGenerationCommonalityFactor>0</weaponGenerationCommonalityFactor>
+			<apparelGenerationCommonalityFactor>0</apparelGenerationCommonalityFactor>
+         </li>
+      </modExtensions>
+	
+	
+	
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <allowedArchonexusCount>500</allowedArchonexusCount>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>IceChunk</defName>
+    <label>ice chunk</label>
+	<description>A chunk of ice. Can be cut into usable blocks.</description>
+	<tickerType>Normal</tickerType>
+	<thingClass>ThingWithComps</thingClass>
+    <graphicData>
+      <color>(179,198,226)</color>
+    </graphicData>
+    <statBases>
+      <Mass>20</Mass>
+    </statBases>
+	
+	<comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>0.1</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+	
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <GS_Iceblocks>20</GS_Iceblocks>
+    </butcherProducts>
+  </ThingDef>
+
+
+
+
+
+
+</Defs>

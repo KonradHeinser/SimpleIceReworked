@@ -1,0 +1,12 @@
+/home/robert/.steam/debian-installation/steamapps/common/RimWorld/Mods/SovSource/Assemblies/OnlyPlaceOnIce.dll
+/home/robert/.steam/debian-installation/steamapps/common/RimWorld/Mods/SovSource/Assemblies/OnlyPlaceOnIce.pdb
+/home/robert/.steam/debian-installation/steamapps/common/RimWorld/Mods/SovSource/Source/OnlyPlaceOnIce/obj/Debug/OnlyPlaceOnIce.csproj.AssemblyReference.cache
+/home/robert/.steam/debian-installation/steamapps/common/RimWorld/Mods/SovSource/Source/OnlyPlaceOnIce/obj/Debug/OnlyPlaceOnIce.csproj.CoreCompileInputs.cache
+/home/robert/.steam/debian-installation/steamapps/common/RimWorld/Mods/SovSource/Source/OnlyPlaceOnIce/obj/Debug/OnlyPlaceOnIce.dll
+/home/robert/.steam/debian-installation/steamapps/common/RimWorld/Mods/SovSource/Source/OnlyPlaceOnIce/obj/Debug/OnlyPlaceOnIce.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SovSource\Assemblies\OnlyPlaceOnIce.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SovSource\Assemblies\OnlyPlaceOnIce.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SovSource\Source\OnlyPlaceOnIce\obj\Debug\OnlyPlaceOnIce.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SovSource\Source\OnlyPlaceOnIce\obj\Debug\OnlyPlaceOnIce.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SovSource\Source\OnlyPlaceOnIce\obj\Debug\OnlyPlaceOnIce.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SovSource\Source\OnlyPlaceOnIce\obj\Debug\OnlyPlaceOnIce.pdb

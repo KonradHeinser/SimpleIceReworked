@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Simple Ice reworked</name>
+	<author>Sovereign,Alite</author>
+	<supportedVersions>
+		<li>1.5</li>
+        <li>1.6</li>
+	</supportedVersions>
+	<packageId>Sovereign.ReworkedIce</packageId>
+	<description>
+[img]https://i.imgur.com/0XkDp7r.png[/img]
+This mod adds simple ice blocks that can be used as stuffable material.
+
+How is this different than the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2866750203]Original[/url] or the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3260493594]1.5 fork?[/url]
+While the original is outdated and had unresolved bugs, the fork does stray too far from the original vision.
+
+This mod is lightweight and causes no performance issues. No Harmony !
+The only c# in here locks the ice spot to the ice ground.
+
+[h1]what is different in this version?[/h1]
+
+Completely rewritten XML
+Ice does not randomly generate in weapons, structures or apparel.
+Instead of just getting blocks, you need a chunk first.
+Redid the art even if one can barely see the difference kek.
+ONLY Chunks and blocks are affected by temperature. ( anything else causes performance issues)
+Ice is no longer transparent as that caused issues with outlines.
+
+[h2]It is now on permanent lifesupport![/h2]
+
+[img]https://i.imgur.com/pcHakrT.png[/img]
+
+[img]https://i.imgur.com/8tiIgCm.png[/img]
+[img]https://i.imgur.com/tcun3eM.png[/img]
+
+[img]https://i.imgur.com/UJ5TK9u.png[/img]
+
+Sovereign- XML,  Art
+Alite- C#, lifesupport
+    </description>
+	<modDependencies>
+	
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+	</loadAfter>
+</ModMetaData> 
+
