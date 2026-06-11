@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Simple Ice Reworked</name>
+	<name>Simple Ice Reworked Continued</name>
 	<author>Sovereign,Alite</author>
 	<supportedVersions>
 		<li>1.5</li>
@@ -53,4 +53,3 @@ Alite- C#, lifesupport
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 	</loadAfter>
 </ModMetaData> 
-
