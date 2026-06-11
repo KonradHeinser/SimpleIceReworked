@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Simple Ice reworked</name>
+	<name>Simple Ice Reworked</name>
 	<author>Sovereign,Alite</author>
 	<supportedVersions>
 		<li>1.5</li>
@@ -37,6 +37,8 @@ Ice is no longer transparent as that caused issues with outlines.
 
 Sovereign- XML,  Art
 Alite- C#, lifesupport
+
+[url=https://github.com/KonradHeinser/SimpleIceReworked][img]https://i.imgur.com/kTkpTOE.png[/img][/url]
     </description>
 	<modDependencies>
 	
