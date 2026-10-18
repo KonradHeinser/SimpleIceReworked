@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RecipeDef ParentName="MakeStoneBlocksBase">
+    <defName>Make_Iceblocks</defName>
+    <label>make ice blocks</label>
+    <description>Cuts ice chunks into usable blocks.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>IceChunk</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>IceChunk</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <GS_Iceblocks>20</GS_Iceblocks>
+    </products>
+  </RecipeDef>
+  
+  <RecipeDef>
+		<defName>Make_IceChunks</defName>
+		<label>Cutting ice chunks</label>
+		<description>cut ice chunks out of the terrain.</description>
+		<jobString>Making ice chunks.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<recipeUsers>	  
+        <li>GS_IceSpot</li>
+		</recipeUsers>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1400</workAmount>
+		<products>
+			<IceChunk>1</IceChunk>
+		</products>
+	</RecipeDef>
+
+</Defs>
